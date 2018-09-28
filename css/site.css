@@ -1,0 +1,255 @@
+* {
+  margin: 0px;
+  padding: 0px 2px;
+  /*border: solid 1px;*/
+}
+
+.tudo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1110px;
+  height: 1050px;
+  padding: 2px;
+  margin-top: 2px;
+  /*border: 2px solid black;*/
+}
+header {
+  height: 150px;
+  width:1100px;
+  margin: 2px;
+  background-color: #082f6b;
+}
+.logo{
+  height: 100px;
+  width: 150px;
+  float: left;
+  margin: 2px;
+  background-image: url(../images/avatar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+.login{
+  height:100px;
+  width: 350px;
+  color: white;
+  float: right;
+  padding-right: 20px;
+}
+.login p{
+  font-size: 12px;
+  float: right;
+  margin-top: 1px;
+}
+
+.center{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10%;
+}
+
+input[type=text], select, textarea {
+  width: 65%;
+  float: left;
+  margin-bottom: 2px;
+}
+
+input[type=checkbox], select, textarea {
+  margin-left: 10px;
+}
+
+input[type=password], select, textarea {
+  width: 65%;
+  float: left;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 4px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.espaco{
+  height: 100px;
+  width: 550px;
+  float: left;
+  margin: 2px;
+  /*background-image: url(./images/hh.png);*/
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.title{
+  text-align: left;
+  color: #dedede;
+  font-size: 68px;
+  font-weight: bold;
+  font-family: cursive;
+  float: left;
+  margin-left: 40px;
+
+}
+.meio{
+  height: 880px;
+  width:1100px;
+  margin: 2px;
+  /*border: 2px solid black;*/
+  background-color: #A9D0F5;
+}
+section {
+  height:800px;
+  width: 800px;
+  float: left;
+  margin: 2px;
+  margin-left: 20px;
+  margin-top: 15px;
+  overflow-y: scroll;
+
+  /*border: 2px solid black;*/
+}
+.recuo {
+  font-size: 14px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  text-align: justify;
+}
+section a{
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+section p {
+  width: 95%;
+  float: left;
+}
+
+.homeImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+aside {
+  height: 800px;
+  width: 200px;
+  float: right;
+  margin: 2px;
+  /*border: 2px solid black;*/
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 25px;
+  text-align: center;
+
+}
+.assideImg{
+  display: block;
+  width: 100%;
+
+}
+
+#busca{
+  padding: 4px 4px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+#btnbusca, #btnopnion{
+  margin: 4px;
+  float: none;
+}
+
+
+#date{
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.opinion {
+  border: 2px solid gray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font: 12px ;
+  text-align:left;
+  border-radius: 4px;
+  background-color: white;
+}
+
+audio{
+  max-width:95%;
+  margin-bottom: 30px;
+}
+footer {
+  height:60px;
+  width: 1100px;
+  margin: 4px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  background-color: black;
+}
+
+
+nav{
+  float:left;
+  margin: 2px;
+  margin-left: 2px;
+}
+
+nav li{
+  list-style:none;
+  position:relative;
+  float:left;
+  border-right: 1px solid white;
+}
+
+nav li a{
+  color:white;
+  text-decoration:none;
+  padding:5px 10px;
+  display:block;
+}
+
+
+nav li a:hover{background:#gray; color:gray;}
+
+nav li ul{position: absolute; top:25px; left: 0px; background-color:#333; display:none; }
+
+nav li:hover ul, nav li.over ul{display:block;}
+
+nav li ul li{border:1px solid black; display:block; width:150px;}
+
+
+.contato input{
+  width: 500px; ;
+  margin-left: 100px;
+  margin-top: 4px;
+}
+
+.contato #conteudo{
+  padding-bottom: 200px;
+  margin-top: 8px;
+  margin-left: 102px;
+}
+.contato #btncontato{
+  width: 80px;
+  float: none;
+}
+.about p{
+  background-color: #dedede;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
+  width: 700px;;
+  margin-left: 10px;
+
+}
